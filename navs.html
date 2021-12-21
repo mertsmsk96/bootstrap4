@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>navs</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+	<!-- nav-fill satırı orantılı şekilde doldurur -->
+	<ul class="nav nav-pills nav-fill">
+		<li class="nav-item">
+			<a class="nav-link active" href="#">Link</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Link</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Link</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link disabled" href="#">Disabled</a>
+		</li>
+	</ul>
+	<hr><br>
+
+	<ul class="nav nav-tabs" id="myTab" role="tablist">
+		<li class="nav-item" role="presentation">
+			<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+		</li>
+		<li class="nav-item" role="presentation">
+			<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+		</li>
+		<li class="nav-item" role="presentation">
+			<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+		</li>
+	</ul>
+	<div class="tab-content" id="myTabContent">
+		<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Ham kot pantolonları muhtemelen duymadınız Austin. Nesciunt tofu stumptown aliqua, retro synth master temizliği. Bıyık klişe geçici, williamsburg carles vegan helvetica. Reprehenderit kasap retro keffiyeh dreamcatcher synth. Cosby kazak eu banh mi, qui irure terry richardson ex squid. Salvia cillum iphone'da yer ayırın. Seitan aliquip quis hırka amerikan kıyafeti, kasap voluptate nisi qui.</div>
+		<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Yiyecek kamyonu fixie locavore, accusamus mcsweeney'nin marfa nulla tek kökenli kahve kalamarı. Egzersiz +1 labore velit, blog terzilik PBR tozlukları sonraki seviye wes anderson zanaatkâr dört loko çiftlikten masaya zanaat bira twee'si. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean şort ullamco ve vinyl cillum PBR. Homo nostrud organik, varsayım labore estetik magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore güdük kasabası. Vegan bel çantası odio cillum wes anderson 8-bit, sürdürülebilir kot şortu sakal ve DIY etik culpa terry richardson biyodizel. Sanat partisi sahnesi stumptown, tumblr kasap vero sint qui sapiente accusamus dövmeli yankı parkı.</div>
+		<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Etsy mixtape wayfarers, etik wes anderson tofu, mcsweeney'nin organik lomo retro bel çantası lo-fi çiftlikten masaya hazır halde satılmadan önce. Postacı çantası centilmen dirgen dövmeli zanaat birası, iphone kaykay locavore carles etsy salvia Banksy hoodie helvetica. DIY synth PBR bankaları ironisi. Tozluklar, kalamar 8-bit kredi dirgenini soyluyor. Williamsburg banh mi glütensiz, carles dirgen biyodizel fixie etsy retro mlkshk vice blog. Senaryo, muhtemelen onları duymadığınıza inanıyor, vinil zanaat bira blogu Stumptown. Dirgen sürdürülebilir tofu sentezi chambray yr.</div>
+	</div>
+	<hr><br>
+
+	<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+		<li class="nav-item" role="presentation">
+			<a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+		</li>
+		<li class="nav-item" role="presentation">
+			<a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+		</li>
+		<li class="nav-item" role="presentation">
+			<a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+		</li>
+	</ul>
+	<div class="tab-content" id="pills-tabContent">
+		<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
+		<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+		<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+	</div>
+	<hr><br>
+
+	<div class="row">
+		<div class="col-3">
+			<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+				<a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+				<a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+				<a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+				<a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+			</div>
+		</div>
+		<div class="col-9">
+			<div class="tab-content" id="v-pills-tabContent">
+				<div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+				<div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+				<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+				<div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>
